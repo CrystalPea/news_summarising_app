@@ -1,11 +1,11 @@
-(function testInstantiation() {
+(function testSummaryInstantiation() {
   var newsSummary = new NewsSummary("Exciting Title", "I am news");
-  assert.isTrue(typeof newsSummary === "object", "testInstantiation")
+  assert.isTrue(typeof newsSummary === "object", "testSummaryInstantiation")
 })();
 
 (function testTitleReturn() {
   var newsSummary = new NewsSummary("Exciting Title", "I am news");
-  assert.isTrue(newsSummary.returnTitle() === "Exciting Title", "testTitleReturn")
+  assert.isTrue(newsSummary.returnHeadline() === "Exciting Title", "testTitleReturn")
 })();
 
 (function testSummaryReturn() {
