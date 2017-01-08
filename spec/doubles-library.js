@@ -1,2 +1,2 @@
-newsSummary1 = {};
-newsSummary1.returnHeadline = function() { "Exciting Title" };
+news1 = {};
+news1.returnHeadline = function() { "Exciting Title" };
